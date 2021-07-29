@@ -1,10 +1,10 @@
 """
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-           MADE BY @LEGENDX22 dont kang this plugin
-         CREDITS = @LEGENDX22 @PROBOYX @alain_champion
+(((((((((((((((((((((((@RetroBot22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@RetroBot22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@RetroBot22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@RetroBot22)))))))))))))))))))))))))))
+           MADE BY @RetroBot22 dont kang this plugin
+         CREDITS = @RetroBot22 @PROBOYX @alain_champion
      Special thanks @alain_champion for this modified version
             if you kang then keep credits
 """
@@ -15,7 +15,7 @@ from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from userbot import ALIVE_NAME, StartTime, CMD_HELP
 from . import legend
-from LEGENDX import BOT, PHOTO, VERSION
+from RetroBot import BOT, PHOTO, VERSION
 from userbot.utils import admin_cmd
 from math import ceil
 import json
@@ -46,7 +46,7 @@ async def amireallyalive(awake):
      ALIVE_MESSAGE += f"🔷 𝚄𝙿𝚃𝙸𝙼𝙴 🔷 : {uptm}\n\n"
      ALIVE_MESSAGE += f"💠 𝙼𝚈 𝙱𝙾𝚂𝚂 💠: [{DEFAULTUSER}](tg://user?id={tag})\n\n"
      ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/LEGEND_USERBOT_SUPPORT)\n\n"
-     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FLEGENDXOP%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FLEGENDXOP%2FLEGEND-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
+     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FRetroBotOP%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FRetroBotOP%2FLEGEND-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
      await awake.delete() 
      await borg.send_file(awake.chat_id, PHOTO,caption=ALIVE_MESSAGE)
    elif PHOTO == None:
@@ -61,7 +61,7 @@ async def amireallyalive(awake):
      ALIVE_MESSAGE += f"🔷 𝚄𝙿𝚃𝙸𝙼𝙴 🔷 : {uptm}\n\n"
      ALIVE_MESSAGE += f"💠 𝙼𝚈 𝙱𝙾𝚂𝚂 💠: [{DEFAULTUSER}](tg://user?id={tag})\n\n"
      ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/LEGEND_USERBOT_SUPPORT)\n\n"
-     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FLEGENDXOP%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FLEGENDXOP%2FLEGEND-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
+     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FRetroBotOP%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FRetroBotOP%2FLEGEND-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
      await awake.delete() 
      await borg.send_file(awake.chat_id, PHOTO,caption=ALIVE_MESSAGE)
    else:

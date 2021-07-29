@@ -1,27 +1,27 @@
-# COPYRIGHT (C) 2021-2022 © BY LEGENDX22 AND PROBOYX 🔥
+# COPYRIGHT (C) 2021-2022 © BY RetroBot22 AND PROBOYX 🔥
 """
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-               MADE BY LEGENDX22 AND PROBOYX
+(((((((((((((((((((((((@RetroBot22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@RetroBot22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@RetroBot22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@RetroBot22)))))))))))))))))))))))))))
+               MADE BY RetroBot22 AND PROBOYX
                  CREDITS TEAMLEGEND
                DONT REMOVE THIS LINES
 """
 from userbot.utils import admin_cmd
-from LEGENDX import xbot, NAME
+from RetroBot import xbot, NAME
 from telethon import Button
 @borg.on(admin_cmd(pattern="button (.*)"))
 async def Buttons(event):
   await event.edit("making your button")
-  LEGENDX = Var.TG_BOT_USER_NAME_BF_HER
+  RetroBot = Var.TG_BOT_USER_NAME_BF_HER
   pro = event.text[7:]
   pro, boy = pro.split("|")
-  if "LEGENDX" == "PROBOYX":
+  if "RetroBot" == "PROBOYX":
     await xbot.send_message(event.chat_id, "buttons")
   else:
     try:
-      async with bot.conversation(LEGENDX) as proboyx:
+      async with bot.conversation(RetroBot) as proboyx:
         await proboyx.send_message("/start")
         await proboyx.get_response()
         await proboyx.send_message("my button 🥺")
@@ -30,4 +30,4 @@ async def Buttons(event):
         await pro.forward_to(event.chat_id)
         await event.delete()
     except:
-        await event.edit("example:\n.button b<button name>|<link>\n`.button LEGENDX|https://t.me/LEGENDX22`\nmake sure your name and link no have Useless spece ", link_preview=False)
+        await event.edit("example:\n.button b<button name>|<link>\n`.button RetroBot|https://t.me/RetroBot22`\nmake sure your name and link no have Useless spece ", link_preview=False)

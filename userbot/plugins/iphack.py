@@ -1,4 +1,4 @@
-#made by LEGENDX22 creaor LEGENDX22
+#made by RetroBot22 creaor RetroBot22
 #kang with credits else gay aur maa chod dunga 
 
 
